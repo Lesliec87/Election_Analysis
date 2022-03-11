@@ -12,23 +12,34 @@ Tom's manager Seth has also requested a way to automate the audit using Python, 
 
 ## Election-Audit Results:
 
-### Results: 
+### Election Results: 
 
 ![Election_Results](https://github.com/Lesliec87/Election_Analysis/blob/main/Resources_3/Election_Results.png)
 
+## Election-Audit Highlights:
+
 - How many votes were cast in this congressional election?
-  - The total votes were 369,711. 
+  - The total votes were 369,711.
   
 - Provide a breakdown of the number of votes and the percentage of total votes for each county in the precinct.
    - In Jefferson there were 38,855 county votes which was 10.5% of the total county votes.
    - In Denver there were 306,055 county votes which was 82.8% of the total county votes.
-   - In Arapahoe there were 24,801 county votes which was 3.1% of the total county votes.
-   
-   *Please review information in above in [Results](#Results)
+   - In Arapahoe there were 24,801 county votes which was 36.7% of the total county votes.
    
 - Which county had the largest number of votes?
+   - The county with the largest number of votes was Denver.
+   
 - Provide a breakdown of the number of votes and the percentage of the total votes each candidate received.
+   - For Charles Casper Stockham he had 85,213 number of votes which was 23.0% of the total candidate votes.
+   - For Diana DeGette she had 272,892 number of votes which was 73.8% of the total candidate votes.
+   - For Raymon Anthony Doane he had 11,606 number of votes which was 3.1% of the total candidate votes.
+   
 - Which candidate won the election, what was their vote count, and what was their percentage of the total votes?
-- Election-Audit Summary: In a summary statement, provide a business proposal to the election commission on how this script can be used—with some modifications—for   any election. Give at least two examples of how this script can be modified to be used for other elections.
+  - The winning candidate was Diana DeGette with a vote count of 272,892 and with a percentage of 73.8% for total votes.
 
-## Election-Audit Results: 
+ *Please review information above in [Results](#Election_Results)
+
+## Election-Audit Summary: In a summary statement, provide a business proposal to the election commission on how this script can be used—with some modifications—for   any election. Give at least two examples of how this script can be modified to be used for other elections.
+
+
+
