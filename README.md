@@ -7,7 +7,7 @@ In this analysis we are assisting Tom, a Colorado board of elections employee, i
 
 First, we are tasked to report the total amount of the votes cast, the votes for each candidate, the percentage of votes for each candidate and the winner based on popular vote. Then the second task the election commision requested was to gather additional data such as the voter turnout for each county, the percentage of votes from each county out of the total count and the county with the highest turnout.
 
-Tom's manager Seth has also requested a way to automate the audit using Python, if it is successful they will use the code we write to audit also senatorial districs and local elections. We are taking the election results from votes cast with one of three voting methods: mail-in-ballots, punch cards and direct recording electronic (DRE) counting machines. After the votes our counted our job is to generate a vote count report to certify the U.S congressional race. 
+Tom's manager Seth has also requested a way to automate the audit using Python, if it is successful they will use the code we write to audit also Senatorial Districs and Local Elections. We are taking the election results from votes cast with one of three voting methods: mail-in-ballots, punch cards and direct recording electronic (DRE) counting machines. After the votes our counted our job is to generate a vote count report to certify the U.S congressional race. 
 
 
 ## Election-Audit Results:
@@ -39,7 +39,29 @@ Tom's manager Seth has also requested a way to automate the audit using Python, 
 
  *Please review information above in [Results](#Election_Results)
 
-## Election-Audit Summary: In a summary statement, provide a business proposal to the election commission on how this script can be used—with some modifications—for   any election. Give at least two examples of how this script can be modified to be used for other elections.
+## Election-Audit Summary: 
 
+In this election audit we were able to provide the results with broken down by total votes, number of votes per candidate, per county, the largets county turnout, the winning candidate, winning vote count and by the percentages.
 
+There is significant use for this script in future elections since we are able to provide a detailed election audit only needing to make modifications to the script depending on the type of election and will be able to keep the script to calculate the candidates with just minor modifications. 
+
+Here are examples of some of the modifications that can be done to the script: 
+
+1. We would need to initially modify files we would be loading our information from and also the path where we would save our results. In the script we will need to update in line "9" and "11' for the variables the "file_to_load" and "file_to_save". 
+
+*Please review below where the modifications can be made. 
+
+![Initial Modifications](https://github.com/Lesliec87/Election_Analysis/blob/main/Resources_3/python_code_1.png)
+
+2. Another modification we will need to make is depending on what type of elections (Congressional Districts, Senatorial Districs or Local Elections) we will need to simply update the name for the county list, dictionary that holds the county as the key and the votes cast for each county as the values this will be in lines "21" and "22".
+
+3. Also modify the names of the empty string that holds the county name for the county with the largest turnout and the varialble that holds the number of votes of the county that had the largest turnout to something that will reflect the type of election. These are found in lines "31" and "32".
+
+*Please review avobe for both 2 and 3 modificiations.
+
+4. Another modification that needs to be made are dependin on the reading the "for loop" to go through each row we will need to update the script that gets the county name from each row in line "53".
+
+*Please review below where the modification can be made. 
+
+![Initial Modifications](https://github.com/Lesliec87/Election_Analysis/blob/main/Resources_3/python_code_2.png)
 
