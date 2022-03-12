@@ -5,7 +5,7 @@
 
 In this analysis we are assisting Tom, a Colorado Board of Elections employee, in an elections audit of the tabulated results for U.S. Congressional Precinct in Colorado. 
 
-First, we are tasked to report the total amount of the votes cast, the votes for each candidate, the percentage of votes for each candidate and the winner based on popular vote. Then the second task the election commision requested was to gather additional data such as the voter turnout for each county, the percentage of votes from each county out of the total count and the county with the highest turnout.
+First, we are tasked to report the total amount of the votes cast, the votes for each candidate, the percentage of votes for each candidate and the winner based on popular vote. Second, the election commision requests was to gather additional data such as the voter turnout for each county, the percentage of votes from each county out of the total count and the county with the highest turnout.
 
 Tom's manager Seth has also requested a way to automate the audit using Python, if it is successful they will use the code we write to audit also Senatorial Districs and Local Elections. We are taking the election results from votes cast with one of three voting methods: mail-in-ballots, punch cards and direct recording electronic (DRE) counting machines. After the votes our counted our job is to generate a vote count report to certify the U.S congressional race. 
 
