@@ -3,7 +3,7 @@
 
 ## Overview of Election Audit:
 
-In this analysis we are assisting Tom, a Colorado board of elections employee, in an elections audit of the tabulated results for U.S. Congressional Precinct in Colorado. 
+In this analysis we are assisting Tom, a Colorado Board of Elections employee, in an elections audit of the tabulated results for U.S. Congressional Precinct in Colorado. 
 
 First, we are tasked to report the total amount of the votes cast, the votes for each candidate, the percentage of votes for each candidate and the winner based on popular vote. Then the second task the election commision requested was to gather additional data such as the voter turnout for each county, the percentage of votes from each county out of the total count and the county with the highest turnout.
 
