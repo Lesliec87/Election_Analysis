@@ -42,19 +42,19 @@ There is significant use for this script in future elections since we are able t
 
 **Here are examples of some of the modifications that can be done to the script:** 
 
-1. We would need to initially modify files we would be loading our information from and also the path where we would save our results. In the script we will need to update in line "9" and "11' for the variables the "file_to_load" and "file_to_save". 
+1. We would need to modify what files we would be loading our information from and also the path where we would save our results since the information will be pulled from different files. In the script we will need to update in line "9" and "11' for the variables the "file_to_load" and "file_to_save". 
 
 *Please review the image below where the modifications can be made. 
 
 ![Initial Modifications](https://github.com/Lesliec87/Election_Analysis/blob/main/Resources_3/python_code_1.png)
 
-2. Another modification we will need to make is depending on what type of elections (Congressional Districts, Senatorial Districs or Local Elections) we will need to simply update the name for the county list, dictionary that holds the county as the key and the votes cast for each county as the values this will be in lines "21" and "22".
+2. Another modification we will need to make is depending on what type of elections (Congressional Districts, Senatorial Districs or Local Elections) we will need to simply update the name for the county list, dictionary that holds the county as the key and the votes cast for each county as the values, this will be in lines "21" and "22". 
 
 3. Also modify the names of the empty string that holds the county name for the county with the largest turnout and the varialble that holds the number of votes of the county that had the largest turnout to something that will reflect the type of election. These are found in lines "31" and "32".
 
 *Please review the image above for both 2 and 3 modificiations.
 
-4. Another modification that needs to be made are dependin on the reading the "for loop" to go through each row we will need to update the script that gets the county name from each row in line "53".
+4. Another modification that needs to be made are depending on the reading the "for loop" to go through each row we will need to update the script that gets the county name from each row in line "53".
 
 *Please review image below where the modification can be made. 
 
