@@ -24,7 +24,7 @@ Tom's manager Seth has also requested a way to automate the audit using Python, 
 - Provide a breakdown of the number of votes and the percentage of total votes for each county in the precinct.
    - In Jefferson there were 38,855 county votes which was 10.5% of the total county votes.
    - In Denver there were 306,055 county votes which was 82.8% of the total county votes.
-   - In Arapahoe there were 24,801 county votes which was 36.7% of the total county votes.
+   - In Arapahoe there were 24,801 county votes which was 6.7% of the total county votes.
    
 - Which county had the largest number of votes?
    - The county with the largest number of votes was Denver.
