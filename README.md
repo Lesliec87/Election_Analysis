@@ -32,7 +32,7 @@ Tom's manager Seth has also requested a way to automate the audit using Python, 
    
  - The winning candidate was Diana DeGette with a vote count of 272,892 and with a percentage of 73.8% for total votes.
 
- *Please review information above in [Results](#Election_Results:)
+ *Please review information above in [Election Results](#Election_Results)
 
 ## Election-Audit Summary: 
 
